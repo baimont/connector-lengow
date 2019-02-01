@@ -32,6 +32,7 @@ install:
   - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
   - travis_install_nightly
   - pip install ftputil
+  - pip install cachetools==2.0.1
 
 script:
     - travis_run_tests
