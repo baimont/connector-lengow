@@ -20,7 +20,8 @@
         "sale_stock",
     ],
     'external_dependencies': {
-        'python': ['ftputil'],
+        'python': ['ftputil',
+                  'cachetools'],
     },
     "data": [
         'data/lengow_data.xml',
